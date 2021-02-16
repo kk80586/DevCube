@@ -81,7 +81,7 @@ Example: `GET https://stakecube.io/api/v2/system/rateLimits`
 ---
 
 ### Trades
-> Returns the last trades of a specified market pair, for example; 
+> Returns the last trades of a specified market pair, for example; `market=SCC_BTC` would return a list of the last 100 trades in the SCC/BTC market pair.
 - Endpoint: `/exchange/spot/trades`
 
 Parameter | Description | Example
