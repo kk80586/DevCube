@@ -10,8 +10,8 @@ For example; `GET https://stakecube.io/api/v2/exchange/spot/markets?base=BTC`
 
 Endpoints are sorted by their API routes, you can find each route for relevent endpoints below.
 
-[**Exchange APIs**]() - Endpoints related to the StakeCube Exchange
+[**Exchange APIs**](https://github.com/stakecube/DevCube/blob/master/rest-api/exchange.md) - Endpoints related to the StakeCube Exchange
 
-[**User/Account APIs**]() - Endpoints related to the StakeCube User / Account
+[**User/Account APIs**](https://github.com/stakecube/DevCube/blob/master/rest-api/user.md) - Endpoints related to the StakeCube User / Account
 
-[**System APIs**]() - Endpoints related to the StakeCube System
+[**System APIs**](https://github.com/stakecube/DevCube/blob/master/rest-api/system.md) - Endpoints related to the StakeCube System
