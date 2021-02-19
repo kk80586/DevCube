@@ -132,6 +132,20 @@ Example: `GET https://stakecube.io/api/v2/exchange/spot/myOrderHistory?market=SC
 
 ---
 
+### My Open Orders
+> Returns a list of your currently open orders, their IDs, their market pair, and other relevent order information.
+- Endpoint: `/exchange/spot/myOpenOrder`
+- Type: `GET`
+
+Parameter | Description | Example
+------------ | ------------- | -------------
+(required) nonce | the incremental integer | UNIX Timestamp
+(required) signature | the parameter's HMAC signature | HEX Format
+
+Example: `GET https://stakecube.io/api/v2/exchange/spot/myOpenOrder?nonce=123&signature=xxx`
+
+---
+
 ### Order
 > Creates an exchange limit order on the chosen market, side, price and amount, for example: `market=SCC_BTC&side=BUY&price=0.00010000&amount=10` would buy 10 SCC with BTC at a price of 10k sats per SCC.
 - Endpoint: `/exchange/spot/order`
