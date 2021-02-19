@@ -2,7 +2,7 @@
 
 Use `https://stakecube.io/api/v2` as the base of every endpoint.
 
-For example; `GET https://stakecube.io/api/v2/exchange/spot/markets?base=BTC`
+For example; `GET https://stakecube.io/api/v2/exchange/spot/markets?baseMarket=BTC&orderBy=volume`
 
 ---
 
