@@ -4,6 +4,8 @@ Use `https://stakecube.io/api/v2` as the base of every endpoint.
 
 For example; `GET https://stakecube.io/api/v2/exchange/spot/markets?baseMarket=BTC&orderBy=volume`
 
+For **authenticated requests**, you can create an API keypair (key + secret) on the [**StakeCube API**](https://stakecube.net/app/profile/api-keys) page.
+
 ---
 
 ## Routes list
