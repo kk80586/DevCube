@@ -3,7 +3,7 @@ API Documentation for the StakeCube Public and Private API (v2) endpoints, as we
 
 ## Directory of Contents
 - [REST API docs](https://github.com/stakecube/DevCube/blob/master/rest-api/README.md) - Build applications, bots and more using the REST API (v2).
-- [Node.js SDK](https://github.com/JSKitty/StakeCube-Node-SDK) - A plug'n'play NPM package for quickly building StakeCube-integrated services.
+- [Node.js SDK](https://github.com/stakecube/StakeCube-Node-SDK) - A plug'n'play NPM package for quickly building StakeCube-integrated services.
 - **SCex Market Maker bot** - Coming Soon: an open-source Market Maker bot designed in-house for StakeCube.
 
 ## Help!
