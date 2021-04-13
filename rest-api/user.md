@@ -25,3 +25,27 @@ Parameter | Description | Example
 (required) signature | the parameter's HMAC signature | HEX Format
 
 Example: `GET https://stakecube.io/api/v2/user/account?nonce=123&signature=xxx`
+
+### Withdraw
+> Creates a withdraw request.
+- Endpoint: `/user/withdraw`
+- Type: `POST`
+
+**Note:** 
+- Only external wallets/addresses work (currently). Payouts to internal stakecube wallets, usernames or similar are not credited to the recipient.
+- This endpoint has a built in 10 second cooldown period
+- API key must have withdrawal permission
+
+Parameter | Description | Example
+------------ | ------------- | -------------
+(required) ticker | the coins ticker | SCC
+(required) address | the destination address | sbtzyNMTbdT21krxrLYCwqX12rmPYtULGN
+(required) amount | the withdraw amount | `10` (SCC)
+(required) nonce | the incremental integer | UNIX Timestamp
+(required) signature | the parameter's HMAC signature | HEX Format
+
+
+
+Example: `POST https://stakecube.io/api/v2/user/withdraw`
+
+POST Body: `ticker=SCC&address=sbtzyNMTbdT21krxrLYCwqX12rmPYtULGN&amount=10&nonce=123&signature=xxx`
