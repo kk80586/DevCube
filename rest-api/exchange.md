@@ -103,7 +103,7 @@ The HMAC signature is composed of all the URL-encoded parameters of your API cal
 
 Parameter | Description | Example
 ------------ | ------------- | -------------
-(required) market | the chosen market pair | SCC_BTC
+(optional) market | the chosen market pair | SCC_BTC
 (optional) limit | the maximum trades to return | 100
 (required) nonce | the incremental integer | UNIX Timestamp
 (required) signature | the parameter's HMAC signature | HEX Format
@@ -121,7 +121,7 @@ Example: `GET https://stakecube.io/api/v2/exchange/spot/myTrades?market=SCC_BTC&
 
 Parameter | Description | Example
 ------------ | ------------- | -------------
-(required) market | the chosen market pair | SCC_BTC
+(optional) market | the chosen market pair | SCC_BTC
 (optional) limit | the maximum trades to return | 100
 (required) nonce | the incremental integer | UNIX Timestamp
 (required) signature | the parameter's HMAC signature | HEX Format
@@ -139,6 +139,8 @@ Example: `GET https://stakecube.io/api/v2/exchange/spot/myOrderHistory?market=SC
 
 Parameter | Description | Example
 ------------ | ------------- | -------------
+(optional) market | the chosen market pair | SCC_BTC
+(optional) limit | the maximum trades to return | 100
 (required) nonce | the incremental integer | UNIX Timestamp
 (required) signature | the parameter's HMAC signature | HEX Format
 
