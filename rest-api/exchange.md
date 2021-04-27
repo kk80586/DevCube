@@ -20,8 +20,12 @@ Example: `GET https://stakecube.io/api/v2/exchange/spot/arbitrageInfo?ticker=SCC
 
 Parameter | Description | Example
 ------------ | ------------- | -------------
-(optional) baseMarket | a base-coin's ticker | BTC
+(optional) market | specific market pair | SCC_BTC
+(optional) baseMarket | specific base market | BTC
+(optional) category | specific category | BTC, SCC, ALTS, STABLE
 (optional) orderBy | the list's ordering | `volume` or `change`
+(optional) orderData | include order information | `true` or `false`
+(optional) priceHistory | include price history | `true` or `false`
 
 Example: `GET https://stakecube.io/api/v2/exchange/spot/markets?baseMarket=BTC&orderBy=volume`
 
