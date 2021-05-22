@@ -93,6 +93,8 @@ Field | Description
 (required) nonce | any integer larger than the last API call's integer (millisecond timestamp)
 (required) signature | a HMAC signature of the full `body` contents in URL-encoded format
 
+The **Content-Type** must be set to: `application/x-www-form-urlencoded`
+
 In addition, your API key should be included as a **header**, under this name: `X-API-KEY`
 
 For new API users, the nonce will start at `0`, you may provide any integer higher than that as the nonce, for example: your nonce is 0, so your next call uses nonce 1, next call uses nonce 2... and repeat. You may also use timestamps for this purpose, but ensure it's a millisecond timestamp, otherwise a second-based timestamp limits you to a call every second maximum.
