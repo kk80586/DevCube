@@ -134,7 +134,7 @@ Parameter | Description | Example
 
 **Note:** `limit` can be left empty and/or removed completely from the query, which will use `100` as the default limit.
 
-Example: `GET https://stakecube.io/api/v2/exchange/spot/myOrderHistory?market=SCC_BTC&limit=100nonce=123&signature=xxx`
+Example: `GET https://stakecube.io/api/v2/exchange/spot/myOrderHistory?market=SCC_BTC&limit=100&nonce=123&signature=xxx`
 
 ---
 
